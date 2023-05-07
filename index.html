@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todolist-style.css">
+ 
+
+  </head> 
+
+  <body>
+    <div class="container">
+    <h1 class="heading">Create your own Todo List</h1>
+      <div class="todo-add">
+        <input id="todo-title" type="text" placeholder="Todo..."/>
+        <input id="todo-date" type="date" placeholder="Date"/>
+        <button class="add-button" tabindex="0" onclick="addTodoButtonPressed()">Add Todo</button>
+      </div>
+
+      <ul id="list-items" class="items">
+        
+      </ul>
+    </div>
+
+    <script src="script/todolist-script.js"></script>
+
+  </body>
+</html>
