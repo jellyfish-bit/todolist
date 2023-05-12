@@ -27,15 +27,15 @@ body {
   flex-wrap: nowrap;
   margin-bottom: 20px;
   width: 370px;
-  height: 45px;
+  height: 40px;
   margin-inline: auto;
 }
 .todo-add * {
   box-sizing: border-box;
-  width: 100%;
+  width: 33%;
+  height: 100%;
   min-width: 60px;
   display: block;
-  height: 40px;
   text-align: center;
   font-size: 16px;
 
