@@ -23,20 +23,20 @@ body {
 .todo-add {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: nowrap;
   margin-bottom: 20px;
   width: 370px;
+  height: 45px;
   margin-inline: auto;
-
 }
 .todo-add * {
   box-sizing: border-box;
   width: 100%;
-
-  display: flex;
+  min-width: 60px;
+  display: block;
   height: 40px;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   font-size: 16px;
 
 }
